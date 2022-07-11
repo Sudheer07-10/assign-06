@@ -1,2 +1,8 @@
 # Write down your observations and what did you learn new - in this file
-
+#Question 1
+We have to split the text at \n and then we get a new list on which we run a loop and check
+every element if it has a '#' and if the condition is true then we pass else we append the
+element into a list and then we use a  \n and use join to return string
+#Question  2
+We use regular expressions to retrive the digits and then we convert it into a integer and
+add it into a variable named total_expense and then finally return it.
