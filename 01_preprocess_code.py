@@ -17,21 +17,29 @@ All comments start at the beginning of the line
 
 import unittest
 
-
 # Implement the below function and run this file
 # Return the output, No need read input or print the ouput
 
 def remove_comments(lines):
-    """ 
+    """
     Input: lines of code as a string
     Returns: lines of code as a string after removing the comments.
 
-    hint: 
+    hint:
         Use string methods like split and strip.
         Handle empty lines in code as well.
     """
     # implement your logic here
-    pass
+    l=[]
+    x=lines.split('\n')
+    for i in x:
+        if '#' in i:
+            pass
+        else:
+            l.append(i)
+    return '\n'.join(l)
+
+
 
 
 # DO NOT TOUCH THE BELOW CODE
